@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylehome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="caja2">
+            <h1><font size="+3">Alura Challenge - Encriptador</font></h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html"><font size="+2">Principal</font></a></li>
+                    <li><a href="Sobre-Nosotros.html"><font size="+2">Sobre Nosotros</font></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        
+        <section>
+            <textarea id="texto-encriptado" class="campo-texto" placeholder="Texto a encriptar:" cols="85" rows="5"></textarea>
+            <div class="btn">
+                <button class="btnEncriptar" value="Encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                <button class="btnDesencriptar" value="Desencriptar" onclick="btnDesencriptar()" >Desencriptar</button>
+                <button class="btnLimpiar" value="Limpiar" onclick="btnLimpiar()" >Limpiar</button>
+            </div>
+        </section>
+        <section class="campo-mensaje">
+            <textarea id="campo-mensaje" class="mensaje" cols="85" rows="5"></textarea>
+        </section>
+    </main>
+    
+    <script src="app.js"></script>
+    
+    <footer>
+        <p class="copyright">&copy; Copyright Olvin García - Honduras - AluraLatam - 2024</p>
+    </footer>
+</body>
+</html>

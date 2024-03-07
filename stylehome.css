@@ -1,0 +1,203 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*Bloque header del body*/
+header{
+    padding: 40px 0;
+    background: #DE5B6D;
+    background-size: 100%;
+}
+
+.caja{
+    width: 1200px;
+    position:static;
+    margin: 0 auto;
+}
+
+.caja2{
+    width: 1500px;
+    position:static;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 45px;
+    right: 90px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*Bloque main del body*/
+.main{
+    background: #E9765B;
+    background: linear-gradient(#DE5B6D,#E9765B);
+    background-size: 100%;
+}
+
+.alura{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.explicacion{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.descripcion-tabla{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/*Bloque de la tabla*/
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.tabla{
+    margin-left: 240px;
+    margin-right: 80px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+/*Bloque de botones*/
+.btnEncriptar{
+    width: 20%;
+    padding: 15px 0;
+    margin-left: 210px;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.btnEncriptar:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+.btnDesencriptar{
+    width: 20%;
+    padding: 15px 0;
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.btnDesencriptar:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+.btnLimpiar{
+    width: 20%;
+    padding: 15px 0;
+    margin-right: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: blue;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.btnLimpiar:hover{
+    background: darkblue;
+    transform: scale(1.1);
+}
+
+/*Bloque de cajas de texto*/
+.campo-texto{
+    margin-left: 320px;
+    margin-right: 80px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+.mensaje{
+    margin-left: 320px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+/*Bloque del footer*/
+footer{
+    text-align: center;
+    padding:40px;
+    background: #478BA2;
+    color: white;
+    background: linear-gradient(#E9765B,#478BA2);
+    background-size: 100%;
+}
+
+.copyright{
+    font-size: 20px;
+    margin:100px;
+}
+
